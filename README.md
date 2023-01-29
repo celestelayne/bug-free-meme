@@ -12,6 +12,6 @@ The class will consist of exercises and long-form projects which allow students 
 
 Link to [GitHub Pages](https://celestelayne.github.io/bug-free-meme/)
 
-### Course Landing Page
+### Screenshot of Course Landing Page
 
 ![Landing Page Screen Shot](https://raw.githubusercontent.com/celestelayne/bug-free-meme/main/assets/cfsp-2023-student-landing-page.png)
