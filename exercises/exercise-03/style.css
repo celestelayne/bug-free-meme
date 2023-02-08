@@ -1,0 +1,28 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  padding: 20px 40px;
+  line-height: 28px;
+}
+
+h1 {
+  font-family: 'Libre Baskerville', serif;
+  text-transform: capitalize;
+  font-size: 50px;
+}
+
+p {
+  width: 50%;
+}
+
+.pullquote {
+  font-family: 'Libre Baskerville', serif;
+  color: #d3d3d3;
+  font-size: 32px;
+  font-style: italic;
+  line-height: 48px;
+  width: 100%;
+}
+
