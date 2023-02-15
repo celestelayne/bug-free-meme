@@ -54,8 +54,14 @@ main {
   width: 50%;
 }
 
+h1 {
+  text-transform: capitalize;
+  font-size: 2.68em;
+}
+
 p {
   line-height: 1.68em;
+  padding-bottom: 1em;
 }
 
 .pullquote {
@@ -67,7 +73,7 @@ p {
   padding: 15px 0;
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 960px) {
   .flex-container {
     background: green;
   }
@@ -80,7 +86,7 @@ p {
   .column {
     width: 100%;
   }
-}
+} */
 
 
 @media (max-width: 450px) {
@@ -90,10 +96,19 @@ p {
 
   main {
     display: flex;
+    
+  }
+
+  .column-wrapper {
     flex-direction: column;
   }
 
   .column {
     width: 100%;
+  }
+
+  .image img {
+    height: 380px;
+    object-position: 50% 50%;
   }
 }
