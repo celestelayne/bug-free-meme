@@ -14,4 +14,4 @@ Link to [GitHub Pages](https://celestelayne.github.io/bug-free-meme/)
 
 ### Screenshot of Course Landing Page
 
-![Landing Page Screen Shot](https://raw.githubusercontent.com/celestelayne/bug-free-meme/main/assets/cfsp-2023-student-landing-page.png)
+![Landing Page Screen Shot](https://raw.githubusercontent.com/celestelayne/bug-free-meme/main/assets/cfsp-2023-student-landing-page-02.png)
