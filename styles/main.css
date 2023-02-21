@@ -14,7 +14,6 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 1.2em;
   min-height: 100vh;
-  /* background-color: papayawhip; */
   color: #141414;
 }
 
@@ -22,6 +21,7 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+    background-color: papayawhip;
 }
 
 nav {
@@ -78,4 +78,35 @@ a.student {
 
 footer{
   padding: 0 40px;
+}
+
+/* tablet */
+@media (max-width: 600px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title {
+    font-size: 1em;
+    padding: 40px;
+    line-height: 2.68em;
+  }
+
+  .column-one, .column-two, .column-three {
+    width: 100%;
+  }
+}
+
+
+/* mobile */
+@media (max-width: 480px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .column-one, .column-two, .column-three {
+    width: 100%;
+  }
 }
