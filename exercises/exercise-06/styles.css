@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+nav {
+  height: 60px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  background: tomato;
+  line-height: 60px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  padding: 0 40px;
+}
+
+li:hover {
+  animation: colors 5s ease 0.5s;
+}
+
+@keyframes colors {
+  0% {
+    background-color: tomato;
+  }
+  40% {
+    background-color: #CC0000;
+  }
+  60% {
+    background-color: #800000;
+  }
+  100% {
+    background-color: tomato;
+  }
+}
