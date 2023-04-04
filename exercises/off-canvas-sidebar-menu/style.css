@@ -1,0 +1,91 @@
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  color: #555;
+  background-color: #fff;
+  padding: 2em;
+}
+
+h2 {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+  font-family: "Roboto", Sans-Serif;
+  font-size: 48px;
+  margin: 2.5em 0 1em;
+}
+
+p {
+  font-family: "Lora", Serif;
+  font-size: 14px;
+  line-height: 1.68em;
+  margin-bottom: 2.2em;
+}
+
+.content-inner {
+  max-width: 69em;
+  margin: 0 auto;
+}
+
+.button {
+  font-family: "Lato", sans-serif;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px auto;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  text-align: center;
+  width: 300px;
+  text-decoration: none;
+}
+
+.big_menu {
+  background-color: rgba(7, 34, 53, 1);
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  opacity: 0;
+  overflow-y: scroll;
+  padding: 15px 30px;
+  position: fixed;
+  transition: all 0.35s ease-in-out;
+  transform: translateX(100%);
+  list-style-type: none;
+}
+
+.big_menu.toggle-open {
+  transform: translateX(0%);
+  opacity: 1;
+}
+
+.big_menu a,
+.big_menu a:focus,
+.big_menu a:visited {
+  color: white;
+  display: block;
+  font-size: 50px;
+  margin: 25px auto;
+  text-align: center;
+  text-decoration: none;
+}
+
+#big-menu-close {
+  background-color: white;
+  color: darkred;
+}
