@@ -21,6 +21,10 @@ body {
   width: 100%;
 }
 
+.list {
+  height: 80vh;
+}
+
 .filter-btn {
   color: white;
   background-color: #f15b31;
@@ -59,6 +63,7 @@ ul .card.hide {
 }
 
 ul .card.show {
+  /* display: block; */
   animation: fadeIn 0.5s ease;
 }
 
